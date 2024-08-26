@@ -1,0 +1,52 @@
+/* Header Container */
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 4px solid #388e3c;
+}
+
+/* Header Title */
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #388e3c;
+  border-radius: 5px;
+}
+
+nav a.active {
+  background-color: #2d8f31;
+  border-radius: 5px;
+}
+
+/* Responsive Header */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  nav a {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+}

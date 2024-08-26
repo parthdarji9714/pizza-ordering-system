@@ -1,0 +1,86 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Heading */
+  h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  td {
+    vertical-align: middle;
+  }
+  
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Veg and Non-Veg Section Styling */
+  .veg-toppings-header {
+    background-color: #e8f5e9; /* Light green */
+    font-weight: bold;
+  }
+  
+  .non-veg-toppings-header {
+    background-color: #ffebee; /* Light red */
+    font-weight: bold;
+  }
+  
+  .toppings-section-header {
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 8px;
+    }
+  
+    input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  
